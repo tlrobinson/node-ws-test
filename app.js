@@ -1,8 +1,8 @@
-var WebSocketServer = require('ws').Server
-  , http = require('http')
-  , express = require('express')
-  , app = express()
-  , port = process.env.PORT || 5000;
+var WebSocketServer = require('ws').Server;
+var http = require('http');
+var express = require('express');
+var app = express();
+var port = process.env.PORT || 8080;
 
 app.use(express.static(__dirname + '/'));
 

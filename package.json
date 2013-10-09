@@ -12,5 +12,9 @@
   "engines": {
     "node": "0.8.11",
     "npm": "1.2.x"
+  },
+  "subdomain": "wsbench",
+  "scripts": {
+    "start": "node app.js"
   }
 }
